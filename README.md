@@ -10,7 +10,7 @@ The harder problem underneath is that a thesis stated out loud is a bundle of cl
 
 ## How it works
 
-The core is a research agent with a real plan-act-observe loop. Given a structured thesis, it writes a research plan, decides which SEC filing to pull, reads what comes back, and decides whether the plan is satisfied or it needs another pull. It stops when every plan item is resolved or when it hits a cap, and it records which.
+The core is a research agent with a real plan-act-observe loop. Given a structured thesis, it writes a research plan, decides which SEC filing to pull, reads what comes back, and decides whether the plan is satisfied or it needs another pull. It stops when every plan item is resolved or when it hits a cap, and it records which. That loop is the piece being built now. What is done and tested is the schema it has to produce, which is where several of the constraints below are enforced.
 
 ## Status
 
